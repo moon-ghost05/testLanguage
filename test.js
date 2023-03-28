@@ -10,7 +10,7 @@ function setup() {
   createCanvas(500,500)
   frameRate(60)
   background(219,232,237)
-  pic = loadImage("amy1.jpg")
+  pic = loadImage("amy1.jpeg")
   h = loadImage("heart.png")
 }
 
@@ -21,43 +21,43 @@ function draw() {
   
   
   if (x == 2) {
-    pic = loadImage("amy2.jpg")
+    pic = loadImage("amy2.jpeg")
     }
   else if (x == 1) {
-    pic = loadImage("amy1.jpg")
+    pic = loadImage("amy1.jpeg")
     }
   else if (x == 3) {
-    pic = loadImage("amy3.jpg")
+    pic = loadImage("amy3.jpeg")
     }
   else if (x <= 1) {
     x = 1
     }
   else if (x == 4) {
-    pic = loadImage("amy4.jpg")
+    pic = loadImage("amy4.jpeg")
     }
   else if (x == 5) {
-    pic = loadImage("emma1.jpg")
+    pic = loadImage("emma1.jpeg")
   }
   else if (x == 6) {
-    pic = loadImage("emma2.jpg")
+    pic = loadImage("emma2.jpeg")
   }
   else if (x == 7) {
-    pic = loadImage("emma3.jpg")
+    pic = loadImage("emma3.jpeg")
   }
   else if (x == 8) {
-    pic = loadImage("emma4.jpg")
+    pic = loadImage("emma4.jpeg")
   }
   else if (x == 9) {
-    pic = loadImage("g1.jpg")
+    pic = loadImage("g1.jpeg")
   }
   else if (x == 10) {
-    pic = loadImage("g2.jpg")
+    pic = loadImage("g2.jpeg")
   }
   else if (x == 11) {
-    pic = loadImage("g3.jpg")
+    pic = loadImage("g3.jpeg")
   }
   else if (x == 12) {
-    pic = loadImage("g4.jpg")
+    pic = loadImage("g4.jpeg")
   }
   else if (x >= 12) {
     x = 12
